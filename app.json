@@ -8,7 +8,10 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.indhranimess.app"
+      "bundleIdentifier": "com.indhranimess.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.indhranimess.app",
@@ -25,6 +28,11 @@
     "plugins": [
       "expo-secure-store",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d4a2957a-a111-4732-8929-f00a492fbde2"
+      }
+    }
   }
 }
